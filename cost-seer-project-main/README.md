@@ -1,73 +1,146 @@
-# Welcome to your Lovable project
+<h1>CostSeer 🚀</h1>
+<h3>An Intelligent Software Cost Estimation Platform</h3>
 
-## Project info
+<p>
+CostSeer is a full-stack web application developed to estimate software development
+effort and cost using machine learning techniques. The platform allows users to input
+key project parameters and receive data-driven cost predictions, enabling better
+planning and budgeting decisions during the early stages of software development.
+</p>
 
-**URL**: https://lovable.dev/projects/8d682336-fa2e-463f-91a2-65458f2da7e5
+<hr/>
 
-## How can I edit this code?
+<h2>📌 Features</h2>
+<ul>
+  <li>Machine Learning–based cost estimation using a Random Forest model</li>
+  <li>Data-driven predictions based on historical project data</li>
+  <li>Interactive and responsive user interface</li>
+  <li>Modular and scalable architecture</li>
+  <li>Clear visualization of estimated effort and cost</li>
+</ul>
 
-There are several ways of editing your application.
+<hr/>
 
-**Use Lovable**
+<h2>🛠️ Tech Stack</h2>
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8d682336-fa2e-463f-91a2-65458f2da7e5) and start prompting.
+<h3>Frontend</h3>
+<ul>
+  <li>React</li>
+  <li>TypeScript</li>
+  <li>Vite</li>
+  <li>Tailwind CSS</li>
+  <li>shadcn/ui</li>
+</ul>
 
-Changes made via Lovable will be committed automatically to this repo.
+<h3>Backend &amp; Machine Learning</h3>
+<ul>
+  <li>Node.js</li>
+  <li>Express.js</li>
+  <li>Python</li>
+  <li>Random Forest Algorithm</li>
+</ul>
 
-**Use your preferred IDE**
+<h3>Tools &amp; Platforms</h3>
+<ul>
+  <li>GitHub</li>
+  <li>REST APIs</li>
+  <li>Lovable (used for UI prototyping and deployment support)</li>
+</ul>
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+<hr/>
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+<h2>🧠 Machine Learning Overview</h2>
+<p>
+The cost estimation module uses supervised learning trained on historical software
+project datasets.
+</p>
+<ul>
+  <li><b>Algorithm:</b> Random Forest Regressor</li>
+  <li><b>Inputs:</b> Project size, complexity, and development attributes</li>
+  <li><b>Output:</b> Estimated software development effort / cost</li>
+  <li><b>Goal:</b> Improve accuracy over traditional heuristic-based estimation</li>
+</ul>
 
-Follow these steps:
+<hr/>
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+<h2>🌐 Live Project</h2>
+<p>
+<a href="https://lovable.dev/projects/8d682336-fa2e-463f-91a2-65458f2da7e5" target="_blank">
+https://lovable.dev/projects/8d682336-fa2e-463f-91a2-65458f2da7e5
+</a>
+</p>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+<p>
+Lovable was leveraged to streamline UI iteration and deployment, while the core
+application logic, machine learning model, and system integration were independently
+developed as part of this project.
+</p>
 
-# Step 3: Install the necessary dependencies.
-npm i
+<hr/>
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+<h2>⚙️ Local Setup &amp; Development</h2>
+
+<h4>Prerequisites</h4>
+<ul>
+  <li>Node.js (v18 or higher)</li>
+  <li>npm</li>
+</ul>
+
+<h4>Steps</h4>
+<pre>
+git clone https://github.com/praneetha-8/costseer.git
+cd costseer/cost-seer-project-main
+npm install
 npm run dev
-```
+</pre>
 
-**Edit a file directly in GitHub**
+<p>
+The application will be available at:
+<b>http://localhost:5173</b>
+</p>
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+<hr/>
 
-**Use GitHub Codespaces**
+<h2>📂 Project Structure</h2>
+<pre>
+cost-seer-project-main/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   └── styles/
+├── public/
+├── package.json
+└── README.md
+</pre>
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+<hr/>
 
-## What technologies are used for this project?
+<h2>🎯 Use Cases</h2>
+<ul>
+  <li>Software project managers estimating development effort</li>
+  <li>Startups planning MVP budgets</li>
+  <li>Academic research in software engineering</li>
+  <li>Students applying machine learning to real-world problems</li>
+</ul>
 
-This project is built with:
+<hr/>
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+<h2>👩‍💻 Author</h2>
+<p>
+<b>Praneetha B</b><br/>
+Computer Science Engineering<br/>
+SRM University – AP<br/>
+GitHub:
+<a href="https://github.com/praneetha-8" target="_blank">
+https://github.com/praneetha-8
+</a>
+</p>
 
-## How can I deploy this project?
+<hr/>
 
-Simply open [Lovable](https://lovable.dev/projects/8d682336-fa2e-463f-91a2-65458f2da7e5) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+<h2>📜 License</h2>
+<p>
+This project is developed for academic and educational purposes.
+You are free to fork and extend it for learning and experimentation.
+</p>
